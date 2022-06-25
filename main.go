@@ -64,7 +64,7 @@ func getAvailabilityFromSmxSite() []Results {
 func sendEmail(someMessage string) {
 	// Sender data.
 	from := "GabrielWohlford@gmail.com"
-	password := "yourEmail"
+	password := "password"
 
 	// Receiver email address.
 	to := []string{
